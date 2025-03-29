@@ -16,7 +16,7 @@ Standardized column names.
 
 Verified data types and adjusted date formatting.
 
-# Output: Cleaned dataset saved in data/cleaned_crime_data.csv.
+Output: Cleaned dataset saved in data/cleaned_crime_data.csv.
 
 # Exploratory Data Analysis (EDA)
 
