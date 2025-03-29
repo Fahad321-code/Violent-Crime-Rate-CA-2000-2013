@@ -16,7 +16,7 @@ uniform column names.
 
 Date formatting was changed and data types were confirmed.
 
-Output: Data/cleaned_crime_data.csv contains the cleaned dataset.
+Output: cleaned_crime_data.csv contains the cleaned dataset.
 
 # Analysis of Exploratory Data (EDA)
 
