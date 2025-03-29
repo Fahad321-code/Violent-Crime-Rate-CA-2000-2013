@@ -82,9 +82,9 @@ Cleaned dataset: cleaned_crime_data.csv.
 
 # Interactive HTML files:
 
-violent_crime_choropleth_map.html
+Total violent crimes by crime type (Urban vs Rural).html
 
-urban_rural_avg_rate.html
+Average violent crimes rate per 1000 (Urban vs rural).html
 
 crime_timeline_animation.html
 
@@ -100,6 +100,20 @@ GitHub for version control.
 
 # Conclusion
 
-From 2000 to 2013, violent crime in California decreased consistently, according to the data. Regional inequities persist, with urban areas continuing to bear the brunt of occurrences. Time-series modeling supports the downward trend in crime rates, however geospatial representations highlight concentration locations.
+This extensive examination of violent crimes in California between 2000 and 2013 indicates substantial temporal, regional, and categorical patterns in criminal behavior. Using cleansed crime data and spatial mappings by county and MPO region, we obtained many crucial insights:
 
-Author: Independent Researcher (2025).Project repository: [GitHub link here]
+Statewide Decline in Violent Crime: The total number of violent crime events is consistently decreasing across the state. This is corroborated both visually and by time-series forecasting with the Prophet model, which predicts further decline beyond 2013.
+
+The Bay Area has routinely reported the greatest amount of violent crimes, owing to its vast population and urban congestion. However, its per capita crime rate remained reasonable, indicating a balance of population and crime volume.
+
+Rural regions have higher per capita rates: Less populated areas, such as the Central/Southeast Sierra and Butte region, have higher average violent crime rates despite low total crime counts. This shows that individual risk exposure may be higher in some rural areas.
+
+Crime Type Distribution Is Consistent: Aggravated assault is the most common violent crime in all geographic locations, followed by robbery and forced rape. Urban and rural locations have similar crime types, albeit numbers vary.
+
+Geographical Variability Exists: County-level mapping revealed substantial contrasts. For example, Los Angeles County had the greatest crime rate and total count, while other rural counties had less activity. The interactive choropleth map effectively illustrates this discrepancy.
+
+No Significant Correlation with region Codes Alone: The correlation matrix indicated that identifiers such as area codes or county FIPS alone do not strongly predict crime rates, highlighting the importance of temporal and categorical disaggregation, as performed in this study.
+
+Overall, this research provides a multidimensional view of violent crime in California by integrating statistical modeling, interactive mapping, and region-specific analysis. These findings can help guide future resource allocation, public safety policies, and targeted intervention activities.
+
+Author: Fahad Bin Hossain (2025).Project repository: [GitHub link here]
