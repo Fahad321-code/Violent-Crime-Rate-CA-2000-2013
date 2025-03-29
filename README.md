@@ -18,7 +18,7 @@ Verified data types and adjusted date formatting.
 
 # Output: Cleaned dataset saved in data/cleaned_crime_data.csv.
 
-# Exploratory Data Analysis (EDA).
+# Exploratory Data Analysis (EDA)
 
 # Summary statistics:
 
@@ -52,7 +52,7 @@ Confidence intervals visualized
 
 # Insight: Predicted crime rates continued to decline beyond 2013
 
-# Geographic Analysis.
+# Geographic Analysis
 
 Regional Trends By MPO Region:
 
@@ -98,7 +98,7 @@ Google Colab for Code Execution
 
 GitHub for version control.
 
-# Conclusion.
+# Conclusion
 
 From 2000 to 2013, violent crime in California decreased consistently, according to the data. Regional inequities persist, with urban areas continuing to bear the brunt of occurrences. Time-series modeling supports the downward trend in crime rates, however geospatial representations highlight concentration locations.
 
